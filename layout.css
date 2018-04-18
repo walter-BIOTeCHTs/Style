@@ -276,8 +276,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.8);}
 .overlay.light::after{background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#CF9C67; border-color:#CF9C67;}
-.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+.btn:hover, .btn.inverse:hover{color:#FFFFFF; background-color:#CF9C67; border-color:#CF9C67;}
+.btn, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
