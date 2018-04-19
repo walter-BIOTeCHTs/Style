@@ -9,7 +9,7 @@ File: Layout CSS
 */
 
 @import url("font-awesome.min.css");
-@import url("https://walter-biotechts.github.io/webDesign/framework.css");
+@import url("framework.css");
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -38,7 +38,7 @@ File: Layout CSS
 
 #header #logo{margin:30px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
-
+#header #logo img{margin: -20px 0 0 0; padding: 0; height: 60px}
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
@@ -124,7 +124,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
 
-#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+#footer .heading{margin-bottom: -15px; font-size:22px;}
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
@@ -245,7 +245,7 @@ td{border-width:0 1px;}
 .faico li:last-child{margin-right:0;}
 .faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
 
-.faico a{color:#FFFFFF; background-color:#000000;}
+.faico a{color:#FFFFFF; background-color:#7A7A7A;}
 .faico a:hover{}
 
 .faicon-dribble:hover{background-color:#EA4C89;}
@@ -266,17 +266,17 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#7A7A7A; background-color:#FFFFFF;}
-a{color:#CF9C67;}
+a{color:#2ea7e0;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
+input:focus, textarea:focus, *:required:focus{border-color:#2ea7e0;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.8);}
 .overlay.light::after{background-color:rgba(0,0,0,.55);}
 
-.btn:hover, .btn.inverse:hover{color:#FFFFFF; background-color:#CF9C67; border-color:#CF9C67;}
+.btn:hover, .btn.inverse:hover{color:#FFFFFF; background-color:#2ea7e0; border-color:#2ea7e0;}
 .btn, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
@@ -291,11 +291,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
 .row4{color:#7A7A7A; background-color:#F7F7F7;}
 .row5, .row5 a{color:#7A7A7A; background-color:#FFFFFF;}
 
-.row3 .heading, .row4 .heading{color:#121212;}
+.row3 .heading, .row4 .heading{color:#7A7A7A;}
 
 
 /* Top Bar */
-#topbar ul li:first-child a{color:#CF9C67;}
+#topbar ul li:first-child a{color:#2ea7e0;}
 
 
 /* Header */
@@ -308,14 +308,14 @@ input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
 
 /* Content Area */
 .services a, .services > li > ul li:hover i{color:#FFFFFF;}
-.services a:hover, .services > li > ul li i{color:#CF9C67;}
+.services a:hover, .services > li > ul li i{color:#2ea7e0;}
 
 
 /* Click to Action */
 .cta input{background-color:transparent; border-color:rgba(255,255,255,.2);}
 .cta:hover input{color:#FFFFFF; border-color:rgba(255,255,255,1);}
-.cta input:focus{border-color:#CF9C67;}
-.cta button{color:#FFFFFF; background-color:#CF9C67;}
+.cta input:focus{border-color:#2ea7e0;}
+.cta button{color:#FFFFFF; background-color:#2ea7e0;}
 /* The following was requested from one of our users, it's the so-called "must have" cross-browser placeholder text colouring:
 if your not worried about it, simply delete it, as the placeholder will take on the default preset colour, but it will be rendered differently in each browser */
 .cta input[type="text"][placeholder]{color:#FFFFFF;}/* W3C */
@@ -331,26 +331,26 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#CF9C67; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#2ea7e0; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.2); border-color:rgba(0,0,0,.2);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#CF9C67;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#2ea7e0;}
 #mainav form select{color:#FFFFFF; background-color:#000000;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#CF9C67;}
+#breadcrumb li:last-child a{color:#2ea7e0;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#CF9C67;}
+.container .sidebar nav a:hover{color:#2ea7e0;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#CF9C67;}
+.pagination .current *{color:#FFFFFF; background-color:#2ea7e0;}
 
-#backtotop{color:#FFFFFF; background-color:#CF9C67;}
+#backtotop{color:#FFFFFF; background-color:#2ea7e0;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#CF9C67;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#2ea7e0;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
