@@ -8,8 +8,8 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("https://walter-biotechts.github.io/webDesign/font-awesome.min.css");
-@import url("https://walter-biotechts.github.io/webDesign/framework.css");
+@import url("font-awesome.min.css");
+@import url("framework.css");
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
